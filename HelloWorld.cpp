@@ -11,6 +11,11 @@ void print()
    cout << "working successfully";
 }
 
+void display()
+{
+   cout << "new function";
+}
+
 int main()
 {
    // sum function
@@ -19,4 +24,5 @@ int main()
    cout << "Hello World";
 
    print();
+   display();
 }
