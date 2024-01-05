@@ -8,6 +8,7 @@ int Sum(int x, int y)
 
 int main()
 {
+   // sum function
    int sumValue = Sum(1,2);
    cout << sumValue << endl;
    cout << "Hello World";
