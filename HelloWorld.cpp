@@ -5,10 +5,15 @@ int Sum(int x, int y)
 {
 	return x+y;
 }
-int remainder(int x, int y){
 
+void show(){
+   cout<<"New function added";
+}
+
+int remainder(int x, int y){
    return x%y;
 }
+
 int main()
 {
    // sum function
@@ -17,4 +22,5 @@ int main()
    int remainderValue = remainder(1,2);
    cout << remainderValue << endl;
    cout << "Hello World";
+   show();
 }
